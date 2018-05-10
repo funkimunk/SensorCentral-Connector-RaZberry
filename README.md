@@ -19,7 +19,7 @@ The text of this file is shown below, and the parameters are detailed in a subse
 
 #### conf.json
 
-``` javascript
+```javascript
 {
   "instanceID": "",
   "piAddr": "",

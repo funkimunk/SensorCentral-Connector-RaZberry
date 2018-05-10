@@ -1,20 +1,24 @@
 # SensorCentral-Connector-RaZberry
 
-###Introduction
+### Introduction
+
 This is a connector for SensorCentral enabling relay of sensor data from an instance of the RaZberry zwave server ([ https://zwave.me/products/razberry/]( https://zwave.me/products/razberry/)).
 This software will automatically enumerate all sensors registered to a RaZberry zwave server and provide near realtime relay of data from these devices.
 The initial release supports binary sensors only but by extension though a simple case statement it should seamlessly support other types.
 
-###Development Environment
+### Development Environment
+
 -The connector was developedin platform independent Java. 
 -This software was developed using Netbeans. 
 -Dependant libraries include Gson.
 
-###Configuring the solution
+### Configuring the solution
+
 On initial run, the software will generate example config files (conf.json). These need to be modified by an end user to provide a number environment specific parameters.
 The text of this file is shown below, and the parameters are detailed in a subsequent table. 
 
-#####conf.json
+##### conf.json
+
 ```javascript
 {
   "instanceID": "",
@@ -26,7 +30,7 @@ The text of this file is shown below, and the parameters are detailed in a subse
 }
 ```
 
-#####Parameters
+##### Parameters
 
 Parameter  | Description
 ------------- | -------------
